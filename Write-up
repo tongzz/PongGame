@@ -1,0 +1,15 @@
+This is a two-player online pong game. I choose this game because it is easy to understand, many people have played it before and it has substantial amount of difficulty in coding the game.
+
+There are a few stages in creating the game. First, we need to create the objects with Raphael.js. I've created the paddles and the ball easily with the functions available from the library learnt in previous assignment.
+
+Next, you want the paddles to move according to the keys pressed and the ball to move freely. Getting the ball to move was inspired the click-the-rectangle game that counts the number of times the rectangle was clicked. 
+
+However, implementing the keys to move the paddles was not as straightforward as listening for mouse clicks. I learnt there are key codes to each key, and it is not possible for the game to record two key events simultatneously. Taking reference from a Raphael.js example, I have learnt to make use of switch cases to activate the movement of paddles until the keys are released.
+
+Third, you want to implement boundaries and collision. This is easier than the previous step as I have learnt to do that in the previous assignment. You simple stop the movement of the paddles when they reach the canvas boundaries. 
+
+Initially, I was attempting to manually code the collision movement by calculating the coordinates of the objects, however, Raphael.js already has a function that enables the collision to be identified although it has a small bug attached to it.
+
+Next, the last part of the development phase would then only to beautify the rest of the web page with scores and directions to play. 
+
+Overall, it took me more than 12 hours to complete the assignment with many diffculties that required the immense help of many online resources.
