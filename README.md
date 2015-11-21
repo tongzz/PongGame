@@ -1,4 +1,4 @@
-# Two-Player Online Pong Game
+# Two-Player Pong Game
 
 Created using Raphael.js library.
-You are able to play Pong game online!
+Two players are playing on the same keyboard, visit http://tongzz.github.io/PongGame/ to play!
